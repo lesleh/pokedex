@@ -9,7 +9,7 @@ export default function Home({ pokemon }) {
       <Head>
         <title>Pokedex</title>
       </Head>
-      <div className="grid auto-cols-fr gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
         {pokemon.map((p) => (
           <div
             className="dark:bg-purple-200 dark:text-gray-800 bg-purple-800 text-gray-200 rounded-md p-3 text-center"
